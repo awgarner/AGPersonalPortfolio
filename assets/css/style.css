@@ -1,0 +1,13 @@
+/* CSS Global Color Variables
+SYNTAX...
+color: var(--nightsky);
+*/
+
+:root {
+  --nightsky: #191725;
+  --twilight: #0b163d;
+  --paleblue: #445888;
+  --tealgray: #647a8a;
+  --black: #0d0d0d;
+  --white: #f1e8e8;
+}
