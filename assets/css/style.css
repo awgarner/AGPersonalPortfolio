@@ -1,7 +1,4 @@
-/* CSS Global Color Variables
-SYNTAX...
-color: var(--nightsky);
-*/
+/* CSS Global Color Variables */
 
 :root {
   --nightsky: #191725;
@@ -20,8 +17,9 @@ color: var(--nightsky);
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  color: var(--black);
+  font-family: "Courier New", monospace;
+  background-color: var(--nightsky);
+  color: var(--white);
 }
 /* HERO STYLES */
 
@@ -55,4 +53,20 @@ body {
 /* CONTACT STYLES */
 
 .contact {
+}
+
+/* PROJECT STYLES */
+
+.project {
+}
+
+/* MEDIA QUERY STYLES */
+
+@media screen and (max-width: 575px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 980px) {
 }
