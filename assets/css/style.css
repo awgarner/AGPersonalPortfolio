@@ -22,13 +22,17 @@ body {
   color: var(--white);
 }
 
+.rightSideLine {
+  border: 5px solid orange;
+}
+
 /* HEADER STYLES */
 
 header {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  align-content: center;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   padding-bottom: 26px;
 }
@@ -54,6 +58,8 @@ header li a {
 
 header ul {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 header li {
@@ -67,6 +73,7 @@ header li {
 
 .hero {
   display: flex;
+  align-items: flex-start;
 
   /* background-image: url("../../images/hero-bg.jpg");
     background-size: cover;
@@ -80,13 +87,47 @@ header li {
     background-position: 80%; */
 }
 
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px 30px 20px;
+}
+
+.hero-container img {
+  max-width: 100%;
+  border: 2px solid var(--black);
+}
+
+.hero-image {
+  flex-basis: 50%;
+  padding: 4px;
+}
+
+.hero-text {
+  font-size: 20px;
+  padding-left: 20px;
+  text-shadow: 0px 2px 3px var(--tealgray);
+}
+
 .hero img {
-  width: 50%;
+}
+
+.hero h2 {
 }
 
 /* ABOUT STYLES */
 
 .about {
+  display: flex;
+}
+
+.about h2 {
+  width: 100px;
+}
+
+.aboutMeTitle {
+  width: 150px;
 }
 
 /* WORK STLYES */
@@ -106,11 +147,62 @@ header li {
 
 /* MEDIA QUERY STYLES */
 
-@media screen and (max-width: 575px) {
+/* 1200 STYLES */
+
+@media screen and (max-width: 1200px) {
 }
 
-@media screen and (max-width: 768px) {
-}
+/* 980 STYLES */
 
 @media screen and (max-width: 980px) {
+  .hero-text {
+    font-size: 25px;
+  }
+  .hero-image {
+    flex-basis: 40%;
+  }
+}
+
+/* 768 STYLES */
+
+@media screen and (max-width: 768px) {
+  .hero-text {
+    font-size: 22px;
+  }
+}
+
+/* 575 STYLES */
+
+@media screen and (max-width: 575px) {
+  .hero-text {
+    font-size: 20px;
+  }
+}
+
+/* 335 STYLES */
+
+@media screen and (max-width: 335px) {
+  header h1 {
+    font-size: 25px;
+  }
+
+  header nav {
+    padding: 0 0 0 0;
+  }
+  .hero-container {
+    flex-direction: column;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .hero-image {
+    padding: 24px;
+  }
+
+  .hero-text {
+    font-size: small;
+  }
+
+  header {
+    padding-bottom: 0px;
+  }
 }
