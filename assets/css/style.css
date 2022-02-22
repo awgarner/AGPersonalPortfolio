@@ -182,14 +182,18 @@ header li {
   flex-wrap: wrap;
 }
 
+.img45 {
+  width: 45vw;
+}
+
 .bigProject {
   height: 300px;
   padding: 20px;
-  background-image: url("/AGPersonalPortfolio/images/coffmanChoirsImage.jp2");
 }
 
-.bigProject img {
-  width: 45vw;
+.projectSize {
+  height: 300px;
+  padding: 20px;
 }
 
 /* CONTACT STYLES */
