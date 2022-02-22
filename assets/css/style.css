@@ -182,9 +182,20 @@ header li {
   flex-wrap: wrap;
 }
 
+.bigProject {
+  height: 300px;
+  padding: 20px;
+  background-image: url("/AGPersonalPortfolio/images/coffmanChoirsImage.jp2");
+}
+
+.bigProject img {
+  width: 45vw;
+}
+
 /* CONTACT STYLES */
 
 .contact {
+  display: flex;
 }
 
 /* PROJECT STYLES */
@@ -194,12 +205,26 @@ header li {
 
 /* FOOTER STYLES */
 
+footer {
+}
+
+.footerTitle {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
 footer ul {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
   list-style: none;
+}
+
+footer h2 {
+  width: 40vw;
+  text-align: center;
 }
 
 footer ul a {
