@@ -92,7 +92,7 @@ header li {
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
-  padding: 10px 20px 30px 20px;
+  padding: 10px 20px 10px 20px;
 }
 
 .hero-container img {
@@ -165,6 +165,7 @@ header li {
 @media screen and (max-width: 980px) {
   .hero-text {
     font-size: 25px;
+    padding-right: 41px;
   }
   .hero-image {
     flex-basis: 40%;
@@ -175,7 +176,8 @@ header li {
 
 @media screen and (max-width: 768px) {
   .hero-text {
-    font-size: 22px;
+    font-size: 19px;
+    padding: 0 20px 0 0px;
   }
 }
 
@@ -184,6 +186,10 @@ header li {
 @media screen and (max-width: 575px) {
   .hero-text {
     font-size: 20px;
+  }
+
+  .hero-container {
+    padding-bottom: 20px;
   }
 }
 
