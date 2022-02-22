@@ -23,7 +23,7 @@ body {
 }
 
 .rightSideLine {
-  border: 5px solid orange;
+  border-right: 1px solid var(--white);
 }
 
 /* HEADER STYLES */
@@ -130,17 +130,56 @@ header li {
 
 .aboutMeTitle {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
+  padding-top: 13px;
 }
 
 .about-p {
   padding: 15px;
+  font-size: 13px;
+}
+
+.about-p p {
+  padding: 20px;
+  font-size: 15px;
+}
+
+.spacer {
+  height: 30px;
 }
 
 /* WORK STLYES */
 
 .work {
+  display: flex;
+}
+
+.work h2 {
+  width: 40vw;
+  text-align: center;
+}
+
+.workTitle {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-top: 13px;
+}
+
+.workProjects {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.project {
+  padding: 20px;
+}
+
+.projectSmall {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* CONTACT STYLES */
@@ -151,6 +190,30 @@ header li {
 /* PROJECT STYLES */
 
 .project {
+}
+
+/* FOOTER STYLES */
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  list-style: none;
+}
+
+footer ul a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+footer li {
+  display: flex;
+  align-items: center;
+}
+
+footer h5 {
+  padding-right: 20px;
 }
 
 /* MEDIA QUERY STYLES */
