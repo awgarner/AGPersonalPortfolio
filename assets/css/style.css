@@ -173,6 +173,18 @@ header li {
   padding: 15px;
 }
 
+.workProjects h3 {
+  font-size: 16px;
+}
+
+.workProjects h4 {
+  font-size: 10px;
+}
+
+.workProjects h5 {
+  font-size: 10px;
+}
+
 .project {
   padding: 20px;
 }
@@ -192,8 +204,53 @@ header li {
 }
 
 .projectSize {
-  height: 300px;
+  height: 195px;
   padding: 20px;
+}
+
+.projectTextBox {
+  position: relative;
+  bottom: 76px;
+  left: 3px;
+  background-color: var(--tealgray);
+  width: 70%;
+  padding: 3px;
+}
+
+.projectTextBox2 {
+  position: relative;
+  bottom: 61px;
+  left: 3px;
+  background-color: var(--tealgray);
+  width: 70%;
+  padding: 3px;
+}
+
+.projectTextBox3 {
+  position: relative;
+  bottom: 79px;
+  left: 3px;
+  background-color: var(--tealgray);
+  width: 70%;
+  padding: 3px;
+}
+
+.projectTextBox4 {
+  position: relative;
+  bottom: 79px;
+  left: 3px;
+  background-color: var(--tealgray);
+  width: 70%;
+  padding: 3px;
+}
+
+.projectTextBox5 {
+  position: relative;
+  bottom: 99px;
+  left: 3px;
+  background-color: var(--tealgray);
+  width: 70%;
+  padding: 3px;
 }
 
 /* CONTACT STYLES */
@@ -281,7 +338,7 @@ footer h5 {
   }
 
   .hero-container {
-    padding-bottom: 20px;
+    padding: 20px 30px 20px 30px;
   }
 }
 
