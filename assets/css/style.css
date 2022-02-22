@@ -89,6 +89,7 @@ header li {
 
 .hero-container {
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
   padding: 10px 20px 30px 20px;
@@ -123,9 +124,18 @@ header li {
 }
 
 .about h2 {
+  width: 40vw;
+  text-align: center;
 }
 
 .aboutMeTitle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-p {
+  padding: 15px;
 }
 
 /* WORK STLYES */
