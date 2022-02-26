@@ -439,11 +439,41 @@ footer h5 {
   }
 
   .hero-text {
-    font-size: small;
+    font-size: 15px;
+    text-align: center;
   }
 
   header {
     padding-bottom: 0px;
+  }
+
+  .about-p p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .projectTextBox h3,
+  .projectTextBox2 h3,
+  .projectTextBox3 h3,
+  .projectTextBox4 h3,
+  .projectTextBox5 h3 {
+    font-size: 13px;
+  }
+
+  .projectTextBox {
+    bottom: 36px;
+  }
+
+  .projectTextBox3 {
+    bottom: 89px;
+  }
+
+  .projectTextBox4 {
+    bottom: 91px;
+  }
+
+  .projectTextBox5 {
+    bottom: 106px;
   }
 }
 
