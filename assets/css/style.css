@@ -397,6 +397,26 @@ footer h5 {
   .footerTitle {
     align-items: center;
   }
+
+  .img45 {
+    width: 100%;
+    border: 3px solid var(--tealgray);
+  }
+
+  .bigProject {
+    height: auto;
+  }
+
+  .projectSize {
+    height: auto;
+  }
+
+  .projectTextBox {
+    position: absolute;
+    bottom: 52px;
+    width: 50vw;
+    left: 22px;
+  }
 }
 
 /* 335 STYLES */
