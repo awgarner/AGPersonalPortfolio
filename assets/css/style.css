@@ -335,7 +335,11 @@ footer h5 {
 
 @media screen and (max-width: 575px) {
   .hero-text {
-    font-size: 20px;
+    font-size: 19px;
+  }
+
+  .hero-text p {
+    padding: 2px;
   }
 
   .hero-container {
@@ -347,20 +351,51 @@ footer h5 {
     align-items: flex-start;
   }
 
+  .workTitle {
+    align-items: center;
+  }
+
   .rightSideLine {
     border-bottom: 1px solid var(--white);
     border-right: none;
-    width: calc(100% - 50px);
-    margin: 25px;
+    width: calc(100% - 150px);
+    margin: 0px 75px 0px 75px;
   }
 
   .work h2 {
     padding-bottom: 10px;
   }
 
+  .about {
+    flex-direction: column;
+  }
+
+  .about h2 {
+    padding-bottom: 10px;
+  }
+
   .aboutMeTitle {
-    border-bottom: none;
-    border-right: 1px solid var(--white);
+    align-items: center;
+  }
+
+  .about-p p {
+    font-size: 17px;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+
+  .contact h2 {
+    padding: 20px;
+  }
+
+  .spacer {
+    display: none;
+  }
+
+  .footerTitle {
+    align-items: center;
   }
 }
 
