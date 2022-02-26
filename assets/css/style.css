@@ -199,6 +199,7 @@ header li {
 }
 
 .bigProject {
+  position: relative;
   height: 300px;
   padding: 20px;
 }
@@ -209,7 +210,7 @@ header li {
 }
 
 .projectTextBox {
-  position: relative;
+  position: absolute;
   bottom: 76px;
   left: 3px;
   background-color: var(--tealgray);
@@ -339,6 +340,27 @@ footer h5 {
 
   .hero-container {
     padding: 20px 30px 20px 30px;
+  }
+
+  .work {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .rightSideLine {
+    border-bottom: 1px solid var(--white);
+    border-right: none;
+    width: calc(100% - 50px);
+    margin: 25px;
+  }
+
+  .work h2 {
+    padding-bottom: 10px;
+  }
+
+  .aboutMeTitle {
+    border-bottom: none;
+    border-right: 1px solid var(--white);
   }
 }
 
