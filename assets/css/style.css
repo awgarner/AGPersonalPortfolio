@@ -195,13 +195,18 @@ header li {
 }
 
 .img45 {
-  width: 45vw;
+  width: 100%;
+  border: 3px solid var(--tealgray);
 }
 
 .bigProject {
   position: relative;
   height: 300px;
   padding: 20px;
+}
+
+.bigProject:hover {
+  background-color: var(--tealgray);
 }
 
 .projectSize {
@@ -329,6 +334,10 @@ footer h5 {
     font-size: 19px;
     padding: 0 20px 0 0px;
   }
+
+  .projectSize {
+    height: 250px;
+  }
 }
 
 /* 575 STYLES */
@@ -396,11 +405,6 @@ footer h5 {
 
   .footerTitle {
     align-items: center;
-  }
-
-  .img45 {
-    width: 100%;
-    border: 3px solid var(--tealgray);
   }
 
   .bigProject {
