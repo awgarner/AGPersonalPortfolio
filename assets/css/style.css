@@ -168,17 +168,25 @@ header li {
   display: flex;
   flex-direction: column;
   width: 60vw;
+  padding: 0px 40px;
 }
 
 .responsive {
   width: 100%;
-  padding: 25px;
+  border: 5px solid var(--tealgray);
 }
 
 .bigProject {
+  position: relative;
+  padding: 20px 0px;
 }
 
-.bigProject a {
+.projectTextBox {
+  position: absolute;
+  padding: 14px;
+  background-color: var(--tealgray);
+  bottom: 40px;
+  left: 5px;
 }
 
 .smallProjects {
