@@ -151,7 +151,8 @@ header li {
 
 /* WORK STLYES */
 
-.work {
+/* old styles before rebuild.. */
+/* .work {
   display: flex;
 }
 
@@ -257,7 +258,7 @@ header li {
   background-color: var(--tealgray);
   width: 70%;
   padding: 3px;
-}
+} */
 
 /* CONTACT STYLES */
 
@@ -312,12 +313,12 @@ footer h5 {
 
 /* 1200 STYLES */
 
-@media screen and (max-width: 1200px) {
-}
+/* @media screen and (max-width: 1200px) {
+} */
 
 /* 980 STYLES */
 
-@media screen and (max-width: 980px) {
+/* @media screen and (max-width: 980px) {
   .hero-text {
     font-size: 25px;
     padding-right: 41px;
@@ -325,11 +326,11 @@ footer h5 {
   .hero-image {
     flex-basis: 40%;
   }
-}
+} */
 
 /* 768 STYLES */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .hero-text {
     font-size: 19px;
     padding: 0 20px 0 0px;
@@ -338,11 +339,11 @@ footer h5 {
   .projectSize {
     height: 250px;
   }
-}
+} */
 
 /* 575 STYLES */
 
-@media screen and (max-width: 575px) {
+/* @media screen and (max-width: 575px) {
   .hero-text {
     font-size: 19px;
   }
@@ -421,11 +422,11 @@ footer h5 {
     width: 50vw;
     left: 22px;
   }
-}
+} */
 
 /* 335 STYLES */
 
-@media screen and (max-width: 335px) {
+/* @media screen and (max-width: 335px) {
   header h1 {
     font-size: 25px;
   }
@@ -479,6 +480,6 @@ footer h5 {
   .projectTextBox5 {
     bottom: 106px;
   }
-}
+} */
 
 /* test comment */
