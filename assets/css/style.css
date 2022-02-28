@@ -34,7 +34,6 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-bottom: 26px;
 }
 
 header h1 {
@@ -92,7 +91,7 @@ header li {
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
-  padding: 10px 20px 10px 20px;
+  padding: 0 4vw;
 }
 
 .hero-container img {
@@ -101,14 +100,16 @@ header li {
 }
 
 .hero-image {
-  flex-basis: 50%;
   padding: 4px;
+  width: 60vw;
+  adding-left: 3vw;
 }
 
 .hero-text {
   font-size: 20px;
   padding-left: 20px;
   text-shadow: 0px 2px 3px var(--tealgray);
+  width: 40vw;
 }
 
 .hero img {
@@ -176,6 +177,11 @@ header li {
   border: 5px solid var(--tealgray);
 }
 
+.responsiveSmall {
+  width: 100%;
+  border: 5px solid var(--tealgray);
+}
+
 .bigProject {
   position: relative;
   padding: 20px 0px;
@@ -194,7 +200,9 @@ header li {
   flex-wrap: wrap;
 }
 
-.projectSize {
+.smallProjectSize {
+  width: 50%;
+  position: relative;
 }
 
 /* old styles before rebuild.. */
