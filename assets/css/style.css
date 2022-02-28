@@ -151,6 +151,10 @@ header li {
 
 /* WORK STLYES */
 
+.work {
+  display: flex;
+}
+
 /* old styles before rebuild.. */
 /* .work {
   display: flex;
