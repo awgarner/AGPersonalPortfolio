@@ -155,6 +155,40 @@ header li {
   display: flex;
 }
 
+.workTitle {
+  width: 40vw;
+}
+
+.work h2 {
+  width: 40vw;
+  text-align: center;
+}
+
+.workProjects {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+}
+
+.responsive {
+  width: 100%;
+  padding: 25px;
+}
+
+.bigProject {
+}
+
+.bigProject a {
+}
+
+.smallProjects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projectSize {
+}
+
 /* old styles before rebuild.. */
 /* .work {
   display: flex;
