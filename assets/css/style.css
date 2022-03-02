@@ -39,6 +39,7 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding-bottom: 1vw;
 }
 
 header h1 {
@@ -102,19 +103,22 @@ header li {
 .hero-container img {
   max-width: 100%;
   border: 2px solid var(--black);
+  max-width: 75%;
+  border-radius: 2%;
 }
 
 .hero-image {
   padding: 4px;
   width: 60vw;
-  padding-left: 3vw;
+  padding-left: 12vw;
 }
 
 .hero-text {
   font-size: 20px;
-  padding-left: 20px;
+  padding-left: 7vw;
   text-shadow: 0px 2px 3px var(--tealgray);
   width: 40vw;
+  font-size: 17px;
 }
 
 .hero img {
@@ -197,7 +201,12 @@ header li {
 
 .bigProject:hover {
   opacity: 0.5;
-  transition: 0.2s;
+  transition: 0.8s;
+}
+
+.smallProjectSize:hover {
+  opacity: 0.5;
+  transition: 0.8s;
 }
 
 .projectTextBoxBig {
@@ -395,6 +404,16 @@ footer h5 {
 }
 
 /* MEDIA QUERY STYLES */
+
+/* New MQ styles after 3-2-22 */
+
+@media and (max-width: 887px) {
+  /* header name and buttons stack here */
+}
+
+@media and (max-width: 554px) {
+  /* header buttons want to stack 1 on top three on bottom here */
+}
 
 /* 1200 STYLES */
 
