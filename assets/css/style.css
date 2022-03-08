@@ -238,115 +238,6 @@ header li {
   padding: 10px;
 }
 
-/* old styles before rebuild.. */
-/* .work {
-  display: flex;
-}
-
-.work h2 {
-  width: 40vw;
-  text-align: center;
-}
-
-.workTitle {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  padding-top: 13px;
-}
-
-.workProjects {
-  display: flex;
-  flex-direction: column;
-  padding: 15px;
-}
-
-.workProjects h3 {
-  font-size: 16px;
-}
-
-.workProjects h4 {
-  font-size: 10px;
-}
-
-.workProjects h5 {
-  font-size: 10px;
-}
-
-.project {
-  padding: 20px;
-}
-
-.projectSmall {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.img45 {
-  width: 100%;
-  border: 3px solid var(--tealgray);
-}
-
-.bigProject {
-  position: relative;
-  height: 300px;
-  padding: 20px;
-}
-
-.bigProject:hover {
-  background-color: var(--tealgray);
-}
-
-.projectSize {
-  height: 195px;
-  padding: 20px;
-}
-
-.projectTextBox {
-  position: absolute;
-  bottom: 76px;
-  left: 3px;
-  background-color: var(--tealgray);
-  width: 70%;
-  padding: 3px;
-}
-
-.projectTextBox2 {
-  position: relative;
-  bottom: 61px;
-  left: 3px;
-  background-color: var(--tealgray);
-  width: 70%;
-  padding: 3px;
-}
-
-.projectTextBox3 {
-  position: relative;
-  bottom: 79px;
-  left: 3px;
-  background-color: var(--tealgray);
-  width: 70%;
-  padding: 3px;
-}
-
-.projectTextBox4 {
-  position: relative;
-  bottom: 79px;
-  left: 3px;
-  background-color: var(--tealgray);
-  width: 70%;
-  padding: 3px;
-}
-
-.projectTextBox5 {
-  position: relative;
-  bottom: 99px;
-  left: 3px;
-  background-color: var(--tealgray);
-  width: 70%;
-  padding: 3px;
-} */
-
 /* CONTACT STYLES */
 
 .contact {
@@ -405,185 +296,80 @@ footer h5 {
 
 /* MEDIA QUERY STYLES */
 
-/* New MQ styles after 3-2-22 */
-
-@media and (max-width: 887px) {
-  /* header name and buttons stack here */
-}
-
-@media and (max-width: 554px) {
-  /* header buttons want to stack 1 on top three on bottom here */
-}
-
-/* 1200 STYLES */
-
-/* @media screen and (max-width: 1200px) {
-} */
-
-/* 980 STYLES */
-
-/* @media screen and (max-width: 980px) {
-  .hero-text {
-    font-size: 25px;
-    padding-right: 41px;
-  }
-  .hero-image {
-    flex-basis: 40%;
-  }
-} */
-
-/* 768 STYLES */
-
-/* @media screen and (max-width: 768px) {
-  .hero-text {
-    font-size: 19px;
-    padding: 0 20px 0 0px;
-  }
-
-  .projectSize {
-    height: 250px;
-  }
-} */
-
-/* 575 STYLES */
-
-/* @media screen and (max-width: 575px) {
-  .hero-text {
-    font-size: 19px;
-  }
-
-  .hero-text p {
-    padding: 2px;
-  }
-
-  .hero-container {
-    padding: 20px 30px 20px 30px;
-  }
-
-  .work {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .workTitle {
-    align-items: center;
-  }
-
-  .rightSideLine {
-    border-bottom: 1px solid var(--white);
-    border-right: none;
-    width: calc(100% - 150px);
-    margin: 0px 75px 0px 75px;
-  }
-
-  .work h2 {
-    padding-bottom: 10px;
-  }
-
-  .about {
-    flex-direction: column;
-  }
-
-  .about h2 {
-    padding-bottom: 10px;
-  }
-
-  .aboutMeTitle {
-    align-items: center;
-  }
-
-  .about-p p {
-    font-size: 17px;
-  }
-
+@media (max-width: 887px) {
   .contact {
     flex-direction: column;
   }
 
-  .contact h2 {
-    padding: 20px;
-  }
-
-  .spacer {
-    display: none;
-  }
-
   .footerTitle {
+    border-right: none;
     align-items: center;
   }
 
-  .bigProject {
-    height: auto;
+  .projectTextBoxBig {
+    width: 70%;
   }
 
-  .projectSize {
-    height: auto;
+  .projectTextBoxBig h3,
+  h4,
+  h5 {
+    font-size: 2vw;
+  }
+
+  .smallProjects {
+    flex-direction: column;
+  }
+
+  .smallProjectSize {
+    width: 100%;
+    height: 18vw;
   }
 
   .projectTextBox {
-    position: absolute;
-    bottom: 52px;
-    width: 50vw;
-    left: 22px;
-  }
-} */
-
-/* 335 STYLES */
-
-/* @media screen and (max-width: 335px) {
-  header h1 {
-    font-size: 25px;
+    bottom: 12px;
+    width: 70%;
   }
 
-  header nav {
-    padding: 0 0 0 0;
+  .projectTextBox > h3,
+  h4 {
+    font-size: 1.2vw;
   }
-  .hero-container {
-    flex-direction: column;
-    padding: 0px 0px 0px 0px;
+}
+
+@media (max-width: 554px) {
+  header li {
+    width: 50%;
   }
 
-  .hero-image {
-    padding: 24px;
+  header ul {
+    padding: 0 4vw 0 4vw;
+  }
+
+  .textGlow {
+    font-size: 3vw;
   }
 
   .hero-text {
-    font-size: 15px;
-    text-align: center;
-  }
-
-  header {
-    padding-bottom: 0px;
+    font-size: 2.1vw;
   }
 
   .about-p p {
-    font-size: 14px;
-    text-align: center;
+    font-size: 1.9vw;
   }
 
-  .projectTextBox h3,
-  .projectTextBox2 h3,
-  .projectTextBox3 h3,
-  .projectTextBox4 h3,
-  .projectTextBox5 h3 {
-    font-size: 13px;
+  header li a {
+    font-size: 3.6vw;
+  }
+
+  header h1 {
+    font-size: 5.8vw;
+  }
+
+  footer ul {
+    flex-direction: column;
   }
 
   .projectTextBox {
-    bottom: 36px;
+    padding: 5px;
   }
-
-  .projectTextBox3 {
-    bottom: 89px;
-  }
-
-  .projectTextBox4 {
-    bottom: 91px;
-  }
-
-  .projectTextBox5 {
-    bottom: 106px;
-  }
-} */
-
-/* test comment */
+}
