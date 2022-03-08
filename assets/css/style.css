@@ -310,9 +310,15 @@ footer h5 {
     width: 70%;
   }
 
-  .projectTextBoxBig h3,
-  h4,
-  h5 {
+  .projectTextBoxBig h3 {
+    font-size: 2vw;
+  }
+
+  .projectTextBoxBig h4 {
+    font-size: 2vw;
+  }
+
+  .projectTextBoxBig h5 {
     font-size: 2vw;
   }
 
@@ -330,8 +336,19 @@ footer h5 {
     width: 70%;
   }
 
-  .projectTextBox > h3,
-  h4 {
+  .projectTextBox h3 {
+    font-size: 1.5vw;
+  }
+
+  .projectTextBox h4 {
+    font-size: 1.5vw;
+  }
+
+  .projectTextBox h5 {
+    font-size: 1.5vw;
+  }
+
+  div.projectTextBox > h3 h4 {
     font-size: 1.2vw;
   }
 }
@@ -371,5 +388,23 @@ footer h5 {
 
   .projectTextBox {
     padding: 5px;
+  }
+
+  .projectTextBoxBig {
+    bottom: 2vw;
+    padding: 7px;
+    left: 12px;
+  }
+
+  .smallProjectSize {
+    padding: 5px 10px;
+  }
+
+  .textGlow h5 {
+    font-size: 2vw;
+  }
+
+  .bigProject {
+    padding: 0px 10px;
   }
 }
